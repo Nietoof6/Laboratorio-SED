@@ -1,0 +1,43 @@
+¿Cuál es el punto más débil de PGP?
+Es la gestión de claves. Aunque PGP es fuerte en lo que a cifrado se refiere, la seguridad de todo el sistema
+depende en gran medida de como se manejan y protegen. Cuando decimos que es la gestión de claves su punto debil
+nos referimos a el compromiso de claves privadas, gestion inadecuadas de claves y dependencia de la confianza 
+en la web de claves.
+
+¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+El cifrado simétrico es conveniente cuando se requiere un alto rendimiento y eficiencia en el procesamiento
+ de grandes volúmenes de datos, y cuando se puede garantizar la seguridad de la clave secreta compartida entre 
+las partes. Es ideal para entornos controlados donde el intercambio seguro de claves es factible, como en redes 
+internas o sistemas donde los riesgos de exposición de la clave son mínimos.
+
+¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+Planificación: Definir los requisitos de seguridad del software y planificar cómo se integrarán en el 
+proceso de desarrollo. Esto incluye la identificación de amenazas potenciales y la definición de los 
+controles de seguridad necesarios.
+
+Análisis de requisitos: Determinar los requisitos de seguridad específicos basados en las necesidades 
+del negocio, la legislación aplicable y las mejores prácticas. Esto puede involucrar la realización de 
+análisis de riesgos y la evaluación de la arquitectura del sistema.
+
+Diseño seguro: Incorporar la seguridad en el diseño del sistema. Esto incluye el diseño de mecanismos de 
+autenticación, autorización, cifrado y otras medidas de seguridad, así como la integración de controles de 
+seguridad en la arquitectura del software.
+
+Desarrollo: Implementar el software siguiendo las directrices de seguridad establecidas. Durante esta fase, 
+se deben aplicar prácticas de codificación segura y realizar revisiones de código para identificar
+ vulnerabilidades.
+
+Pruebas: Realizar pruebas de seguridad para identificar y corregir vulnerabilidades en el software. 
+Esto puede incluir pruebas estáticas (análisis de código fuente) y dinámicas (análisis del comportamiento del 
+software en ejecución), así como pruebas de penetración.
+
+Despliegue: Implementar el software en un entorno de producción. Durante esta etapa, se deben aplicar controles 
+de seguridad adicionales, como la configuración segura del entorno y el monitoreo de actividades sospechosas.
+
+Mantenimiento: Realizar actualizaciones y parches de seguridad conforme surjan nuevas vulnerabilidades. También 
+implica la monitorización continua del software en producción para detectar posibles problemas de seguridad y 
+responder a incidentes.
+
+Desmantelamiento: Cuando el software llega al final de su ciclo de vida, se debe desmantelar de manera segura, 
+asegurando que los datos sensibles sean eliminados de manera segura y que el software ya no represente un riesgo 
+de seguridad.
